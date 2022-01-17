@@ -35,11 +35,11 @@ body {
 }
 .display-7 {
   font-family: 'Jost', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.5;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.875rem;
+  font-size: 1.5rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -73,9 +73,9 @@ body {
     line-height: calc( 1.4 * (1.35rem + (2 - 1.35) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-7 {
-    font-size: 1.2rem;
-    font-size: calc( 1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 0.96rem;
+    font-size: calc( 1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.07rem + (1.2 - 1.07) * ((100vw - 20rem) / (48 - 20))));
   }
 }
 /* Buttons */
@@ -724,6 +724,9 @@ a {
     padding: 2rem;
   }
 }
+.cid-sUn5LGa7Yr P {
+  text-align: left;
+}
 .cid-sUn7pzoWHt {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1039,69 +1042,16 @@ a {
     padding: 2rem;
   }
 }
-.cid-sUnFYqOGMa {
-  padding-top: 8rem;
-  padding-bottom: 6rem;
-  background-color: #232323;
+.cid-sUMzJLstqI {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
 }
-.cid-sUnFYqOGMa .mbr-media {
-  position: relative;
-}
-.cid-sUnFYqOGMa .mbr-media img {
-  width: 100%;
-  object-fit: cover;
-}
-.cid-sUnFYqOGMa .icon-wrap {
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-.cid-sUnFYqOGMa .mbr-media span {
-  font-size: 4rem;
-  transition: all 0.2s;
-}
-.cid-sUnFYqOGMa .modalWindow {
-  position: fixed;
-  z-index: 5000;
-  left: 0;
-  top: 0;
-  background-color: rgba(61, 61, 61, 0.65);
-  width: 100%;
-  height: 100%;
-}
-.cid-sUnFYqOGMa .modalWindow .modalWindow-container {
-  display: table-cell;
-  vertical-align: middle;
-}
-.cid-sUnFYqOGMa .modalWindow .modalWindow-video {
-  height: calc(44.9943757vw);
-  width: 80vw;
+.cid-sUMzJLstqI .line {
+  background-color: #6592e6;
+  align: center;
+  height: 2px;
   margin: 0 auto;
-}
-.cid-sUnFYqOGMa .close {
-  position: fixed;
-  opacity: 0.5;
-  font-size: 22px;
-  font-weight: 300;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  color: #fff;
-  top: 2.5rem;
-  right: 2.5rem;
-  border: 2px solid #fff;
-  text-shadow: none;
-  z-index: 5;
-  transition: opacity 0.3s ease;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-}
-.cid-sUnFYqOGMa .close:hover {
-  opacity: 1;
-  background: #000;
-  color: #fff;
 }
 .cid-sUnFwNsrwZ {
   padding-top: 30px;
